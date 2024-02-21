@@ -2,31 +2,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @media screen and (max-width: 640px) {
-
-  #TextLogo h1{
+  #TextLogo h1 {
     font-family: "Jacques Francios", serif;
     font-weight: 400;
     font-style: normal;
     color: #57a2a7;
     font-size: 3rem;
+    margin-left: -3vw;
   }
 
   header {
     flex-direction: row;
-    background-image: linear-gradient(to right, blue, black);
+    background-image: linear-gradient(to right, #1C1A64, #202020);
     padding-top: 1vw;
     padding-left: 10vw;
-    padding-right: 20vw;
-    padding-bottom: 5vw;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-right: -4vw;
+    margin-left: -3vw;
+    margin-top: -3vw;
   }
-
-
 
   #ImgLogo img {
     width: 13rem;
     margin-bottom: 100vw;
     margin-top: -28vw;
-    margin-left: 18vw;
+    margin-left: 12vw;
   }
 
   #LinkMenu {
@@ -35,7 +36,7 @@
     padding: 5vw;
     width: 25vw;
     border-radius: 2vw;
-    margin-left: 58vw;
+    margin-left: 50vw;
     margin-top: -124vw;
   }
 
@@ -43,8 +44,31 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: x-large;
-    color: #0099DB;
+    color: #0099db;
   }
+
+  aside {
+    border: 0px solid black;
+    background-image: linear-gradient(to top, #010028, #1C1A64);
+    padding-right: 1rem;
+    padding-bottom: 30rem;
+    margin-left: -0.5rem;
+    margin-top: -1.252rem;
+    width: 7rem;
+  }
+
+  #AsideText {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #AsideText h2 {
+    color: #3FD1C9;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007) {
