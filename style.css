@@ -54,7 +54,7 @@
     padding-bottom: 30rem;
     margin-left: -0.5rem;
     margin-top: -1.252rem;
-    width: 7rem;
+    width: 5rem;
   }
 
   #AsideText {
@@ -66,7 +66,7 @@
   #AsideText h2 {
     color: #3FD1C9;
     font-weight: 400;
-    padding-left: 2rem;
+    padding-left: 0.5rem;
   }
 
 }
