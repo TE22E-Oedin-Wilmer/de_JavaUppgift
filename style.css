@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 640px) {
   #TextLogo h1 {
-    font-family: "Jacques Francios", serif;
+    font-family: "Jacques Francois", serif;
     font-weight: 400;
     font-style: normal;
     color: #57a2a7;
@@ -13,12 +13,12 @@
 
   header {
     flex-direction: row;
-    background-image: linear-gradient(to right, #1C1A64, #202020);
+    background-image: linear-gradient(to right, #1c1a64, #202020);
     padding-top: 1vw;
     padding-left: 10vw;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    margin-right: -4vw;
+    margin-right: -1rem;
     margin-left: -3vw;
     margin-top: -3vw;
   }
@@ -49,11 +49,12 @@
 
   aside {
     border: 0px solid black;
-    background-image: linear-gradient(to top, #010028, #1C1A64);
+    background-image: linear-gradient(to top, #010028, #1c1a64);
     padding-right: 1rem;
-    padding-bottom: 30rem;
+    padding-bottom: 4rem;
     margin-left: -0.5rem;
     margin-top: -1.252rem;
+    margin-bottom: -1rem;
     width: 5rem;
   }
 
@@ -64,10 +65,88 @@
   }
 
   #AsideText h2 {
-    color: #3FD1C9;
+    color: #3fd1c9;
     font-weight: 400;
     padding-left: 0.5rem;
   }
+
+  #AsideText p {
+    color: #8bc0fe;
+    padding-left: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  #BlackBar h2 {
+    font-family: "Jacques Francois", serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2.3rem;
+  }
+
+  #BlackBar {
+    border: 0px solid black;
+    background-image: linear-gradient(to bottom, #262626, #000000);
+    padding: 1vw;
+    margin-top: -38.35rem;
+    margin-left: 5.48rem;
+    width: 17.49rem;
+  }
+
+  #Watch3,
+  #Watch4,
+  #Watch5,
+  #Watch6 {
+    display: none;
+  }
+
+  #Watches {
+    display: grid;
+    grid-template-rows: 60vw;
+    margin-left: 8rem;
+    margin-top: 1rem;
+  }
+
+  #Watch1 img {
+    width: 11rem;
+    margin-left: 3rem;
+    margin-top: -22rem;
+    margin-bottom: 2rem;
+  }
+
+  #Watch2 img {
+    width: 9rem;
+    margin-left: 4rem;
+    margin-top: -22rem;
+    margin-bottom: 2rem;
+  }
+
+  #Watch1, #Watch2 {
+    font-family: "Jacques Francois", serif;
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    width: 12rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+  }
+
+  #Watches h2{
+    font-weight: 400;
+    color: white;
+    font-size: large;
+    margin-left: 0.5rem;
+  }
+  #Watches p{
+    color: #8BC0FE;
+    font-size: small;
+    margin-right: 6rem;
+    margin-left: 0.5rem;
+  }
+
+  #Watches button {
+    margin-top: -5rem;
+    margin-left: 4.5rem;
+  }
+
 
 }
 
