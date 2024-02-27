@@ -11,7 +11,7 @@
     margin-left: -3vw;
   }
 
-  header {
+  header, #CartHeader {
     flex-direction: row;
     background-image: linear-gradient(to right, #1c1a64, #202020);
     padding-top: 1vw;
@@ -137,7 +137,7 @@
     font-size: large;
     margin-left: 0.5rem;
     margin-right: 0rem;
-  margin-top: -1.5rem;
+    margin-top: -1.5rem;
   }
   #Watches p {
     color: #8bc0fe;
@@ -154,6 +154,27 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
+
+  footer {
+    display: grid;
+    border: 0px solid black;
+    grid-template-columns: 3.5rem 3.5rem 3.5rem 3.5rem 3.5rem;
+    align-content: space-around;
+    background-color: #010028;
+    color: white;
+    width: 18rem;
+    height: 5rem;
+    margin-left: 5.45rem;
+    margin-top: 1.1rem;
+    margin-bottom: -1rem;
+  }
+
+  footer p{
+    font-family: "Inter", sans-serif;
+    font-size: x-small;
+    padding-bottom: -1rem;
+  }
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007) {
