@@ -88,7 +88,7 @@
     border: 0px solid black;
     background-image: linear-gradient(to bottom, #262626, #000000);
     padding: 1vw;
-    margin-top: -38.35rem;
+    margin-top: -37.9rem;
     margin-left: 5.48rem;
     width: 17.49rem;
   }
@@ -103,6 +103,7 @@
   #Watches {
     display: grid;
     grid-template-rows: 60vw;
+    border: 0px solid black;
     margin-left: 8rem;
     margin-top: 1rem;
   }
@@ -110,18 +111,19 @@
   #Watch1 img {
     width: 11rem;
     margin-left: 3rem;
-    margin-top: -22rem;
-    margin-bottom: 2rem;
+    margin-top: -10rem;
+    margin-bottom: 4rem;
   }
 
   #Watch2 img {
     width: 9rem;
     margin-left: 4rem;
-    margin-top: -22rem;
-    margin-bottom: 2rem;
+    margin-top: -10rem;
+    margin-bottom: 4rem;
   }
 
-  #Watch1, #Watch2 {
+  #Watch1,
+  #Watch2 {
     font-family: "Jacques Francois", serif;
     background-image: linear-gradient(to top left, #000000, #0012b5);
     width: 12rem;
@@ -129,25 +131,29 @@
     border-radius: 0.5rem;
   }
 
-  #Watches h2{
+  #Watches h2 {
     font-weight: 400;
     color: white;
     font-size: large;
     margin-left: 0.5rem;
+    margin-right: 0rem;
+  margin-top: -1.5rem;
   }
-  #Watches p{
-    color: #8BC0FE;
+  #Watches p {
+    color: #8bc0fe;
     font-size: small;
-    margin-right: 6rem;
+    margin-right: 0.5rem;
     margin-left: 0.5rem;
+    width: 5rem;
   }
 
   #Watches button {
-    margin-top: -5rem;
-    margin-left: 4.5rem;
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    color: white;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
-
-
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007) {
