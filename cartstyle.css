@@ -47,35 +47,6 @@
     color: #0099db;
   }
 
-  aside {
-    border: 0px solid black;
-    background-image: linear-gradient(to top, #010028, #1c1a64);
-    padding-right: 1rem;
-    padding-bottom: 4rem;
-    margin-left: -0.5rem;
-    margin-top: -1.252rem;
-    margin-bottom: -1rem;
-    width: 5rem;
-  }
-
-  #AsideText {
-    font-family: "Jacques Francois", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  #AsideText h2 {
-    color: #3fd1c9;
-    font-weight: 400;
-    padding-left: 0.5rem;
-  }
-
-  #AsideText p {
-    color: #8bc0fe;
-    padding-left: 0.7rem;
-    margin-top: 1rem;
-  }
-
   #BlackBar h2 {
     font-family: "Jacques Francois", serif;
     color: white;
@@ -88,9 +59,10 @@
     border: 0px solid black;
     background-image: linear-gradient(to bottom, #262626, #000000);
     padding: 1vw;
-    margin-top: -37.9rem;
-    margin-left: 5.48rem;
-    width: 17.49rem;
+    padding-right: 5rem;
+    padding-left: 3rem;
+    margin-left: 0rem;
+    margin-top: -0.01rem;
   }
 
   #Watch3,
@@ -169,12 +141,11 @@
     margin-bottom: -1rem;
   }
 
-  footer p{
+  footer p {
     font-family: "Inter", sans-serif;
     font-size: x-small;
     padding-bottom: -1rem;
   }
-
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007) {
