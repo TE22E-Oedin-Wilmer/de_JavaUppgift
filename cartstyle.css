@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @media screen and (max-width: 640px) {
-  #TextLogo h1 {
+  #textLogo h1 {
     font-family: "Jacques Francois", serif;
     font-weight: 400;
     font-style: normal;
@@ -11,26 +11,24 @@
     margin-left: -3vw;
   }
 
-  header {
+  #cHeader {
     flex-direction: row;
     background-image: linear-gradient(to right, #1c1a64, #202020);
-    padding-top: 1vw;
     padding-left: 10vw;
     padding-right: 2rem;
-    padding-bottom: 2rem;
     margin-right: -1rem;
     margin-left: -3vw;
     margin-top: -3vw;
   }
 
-  #ImgLogo img {
+  #imgLogo img {
     width: 13rem;
     margin-bottom: 100vw;
     margin-top: -28vw;
     margin-left: 12vw;
   }
 
-  #LinkMenu {
+  #linkMenu {
     border: 0px solid black;
     background-color: #4f009e;
     padding: 5vw;
@@ -40,14 +38,14 @@
     margin-top: -124vw;
   }
 
-  #LinkMenu a {
+  #linkMenu a {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: x-large;
     color: #0099db;
   }
 
-  #BlackBar h2 {
+  #blackBar h2 {
     font-family: "Jacques Francois", serif;
     color: white;
     font-weight: 400;
@@ -55,7 +53,7 @@
     margin-left: 2.3rem;
   }
 
-  #BlackBar {
+  #blackBar {
     border: 0px solid black;
     background-image: linear-gradient(to bottom, #262626, #000000);
     padding: 1vw;
@@ -65,14 +63,16 @@
     margin-top: -0.01rem;
   }
 
-  #Watch3,
-  #Watch4,
-  #Watch5,
-  #Watch6 {
+
+  #watch2,
+  #watch3,
+  #watch4,
+  #watch5,
+  #watch6 {
     display: none;
   }
 
-  #Watches {
+  #watches {
     display: grid;
     grid-template-rows: 60vw;
     border: 0px solid black;
@@ -80,22 +80,22 @@
     margin-top: 1rem;
   }
 
-  #Watch1 img {
+  #watch1Cart img {
     width: 11rem;
     margin-left: 3rem;
     margin-top: -10rem;
     margin-bottom: 4rem;
   }
 
-  #Watch2 img {
+  #watch2 img {
     width: 9rem;
     margin-left: 4rem;
     margin-top: -10rem;
     margin-bottom: 4rem;
   }
 
-  #Watch1,
-  #Watch2 {
+  #watch1Cart,
+  #watch2 {
     font-family: "Jacques Francois", serif;
     background-image: linear-gradient(to top left, #000000, #0012b5);
     width: 12rem;
@@ -103,7 +103,7 @@
     border-radius: 0.5rem;
   }
 
-  #Watches h2 {
+  #watches h2 {
     font-weight: 400;
     color: white;
     font-size: large;
@@ -111,7 +111,7 @@
     margin-right: 0rem;
     margin-top: -1.5rem;
   }
-  #Watches p {
+  #watches p {
     color: #8bc0fe;
     font-size: small;
     margin-right: 0.5rem;
@@ -119,7 +119,7 @@
     width: 5rem;
   }
 
-  #Watches button {
+  #watches button {
     background-image: linear-gradient(to top left, #000000, #0012b5);
     color: white;
     margin-left: 5rem;
@@ -127,21 +127,21 @@
     margin-bottom: 0.5rem;
   }
 
-  footer {
+  #cFooter {
     display: grid;
     border: 0px solid black;
     grid-template-columns: 3.5rem 3.5rem 3.5rem 3.5rem 3.5rem;
     align-content: space-around;
     background-color: #010028;
     color: white;
-    width: 18rem;
+    width: 23.95rem;
     height: 5rem;
-    margin-left: 5.45rem;
+    margin-left: -0.5rem;
     margin-top: 1.1rem;
     margin-bottom: -1rem;
   }
 
-  footer p {
+  #cFooter p {
     font-family: "Inter", sans-serif;
     font-size: x-small;
     padding-bottom: -1rem;
