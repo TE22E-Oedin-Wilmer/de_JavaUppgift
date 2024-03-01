@@ -309,9 +309,9 @@
   }
 
   #Watch4 img {
-    width: 48rem;
-    margin-left: -12.8rem;
-    margin-top: -18.3rem;
+    width: 14rem;
+    margin-left: 5rem;
+    margin-top: -14rem;
     margin-bottom: 4rem;  
   }
 
@@ -377,4 +377,215 @@
 }
 
 @media screen and (min-width: 1008px) {
+  #TextLogo h1 {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #57a2a7;
+    font-size: 4rem;
+    margin-left: -4vw;
+    margin-top: 1vw;
+  }
+
+  header {
+    flex-direction: row;
+    background-image: linear-gradient(to right, #1c1a64, #202020);
+    padding-top: 1vw;
+    padding-left: 10vw;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-right: -1rem;
+    margin-left: -1vw;
+    margin-top: -1vw;
+    height: 4rem;
+  }
+
+  #ImgLogo img {
+    width: 15rem;
+    margin-bottom: 5vw;
+    margin-top: -10.5vw;
+    margin-left: 30vw;
+  }
+
+  #LinkMenu {
+    border: 0px solid black;
+    background-color: #4f009e;
+    padding: 1vw;
+    width: 10vw;
+    border-radius: 0.8vw;
+    margin-left: 71vw;
+    margin-top: -12vw;
+  }
+
+  #LinkMenu a {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #0099db;
+    margin-left: 1.3rem;
+  }
+
+  aside {
+    border: 0px solid black;
+    background-image: linear-gradient(to top, #010028, #1c1a64);
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+    margin-left: -0.5rem;
+    margin-top: -1.3rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    height: 50rem;
+  }
+
+  #AsideText {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #AsideText h2 {
+    color: #3fd1c9;
+    font-weight: 400;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+  }
+
+  #AsideText p {
+    color: #8bc0fe;
+    padding-left: 7rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: -5rem;
+    margin-right: 2.2rem;
+  }
+
+  #BlackBar h2 {
+    font-family: "Jacques Francois", serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20rem;
+    font-size: 1.8rem;
+  }
+
+  #BlackBar {
+    border: 0px solid black;
+    background-image: linear-gradient(to bottom, #262626, #000000);
+    padding: 1vw;
+    margin-top: -54rem;
+    margin-left: 10.5rem;
+    width: 66.85rem;
+  }
+
+  #Watches {
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    border: 0px solid black;
+    margin-left: 16rem;
+    margin-top: 2rem;
+  }
+
+  #Watch1 img {
+    width: 14rem;
+    margin-left: 4.3rem;
+    margin-top: -14rem;
+    margin-bottom: 4rem;
+  }
+
+  #Watch2 img {
+    width: 12rem;
+    margin-left: 5.3rem;
+    margin-top: -14rem;
+    margin-bottom: 4rem;
+  }
+
+  #Watch3 img {
+    width: 9.5rem;
+    margin-left: 6.6rem;
+    margin-top: -13.8rem;
+    margin-bottom: 4rem;
+  }
+
+  #Watch4 img {
+    width: 14rem;
+    margin-left: 4.5rem;
+    margin-top: -14.3rem;
+    margin-bottom: 4rem;  
+  }
+
+  #Watch5 img {
+    width: 12rem;
+    margin-left: 5.2rem;
+    margin-top: -13.8rem;
+    margin-bottom: 4rem;
+  }
+
+  #Watch6 img {
+    width: 14rem;
+    margin-left: 4rem;
+    margin-top: -14rem;
+    margin-bottom: 4rem;  
+  }
+
+  #Watch1,
+  #Watch2,
+  #Watch3,
+  #Watch4,
+  #Watch5,
+  #Watch6 {
+    font-family: "Jacques Francois", serif;
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  #Watches h2 {
+    font-weight: 400;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    margin-top: -1.5rem;
+  }
+  #Watches p {
+    color: #8bc0fe;
+    font-size: large;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 7rem;
+  }
+
+  #Watches button {
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    color: white;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    margin-bottom: -1rem;
+  }
+
+  footer {
+    display: grid;
+    border: 0px solid black;
+    grid-template-columns: 14rem 14rem 14rem 14rem 14rem ;
+    align-content: space-around;
+    background-color: #010028;
+    color: white;
+    width: 68rem;
+    height: 6.3rem;
+    margin-left: 10.5rem;
+    margin-top: -2.9rem;
+  }
+
+  footer p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    margin-bottom: -1rem;
+    margin-left: 3rem;
+    margin-top: -0.8rem;
+  }
+
 }
