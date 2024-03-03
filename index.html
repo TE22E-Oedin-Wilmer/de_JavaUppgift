@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cartstyle.css" />
   </head>
   <body>
     <header>
@@ -16,8 +17,49 @@
         <img src="RollikIMG.webp" alt="RollikIMG" />
       </div>
 
-      <div id="LinkMenu">
-        <nav><a href="cart.html">=Menu</a></nav>
+      <div id="dropdown">
+        <div id="LinkMenu">
+          <nav><a onclick="">=Menu</a></nav>
+        </div>
+        <div id="dropContent">
+          <div id="content">
+            <article id="drp1">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RolexWatch.webp" alt="Watch1" />
+            </article>
+
+            <article id="drp2">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RolexWatch2.webp" alt="Watch2" />
+            </article>
+
+            <article id="drp3">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RolexWatch3.webp" alt="Watch3" />
+            </article>
+
+            <article id="drp4">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RealWatch4.webp" alt="Watch4" />
+            </article>
+
+            <article id="drp5">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RealWatch5.webp" alt="Watch5" />
+            </article>
+
+            <article id="drp6">
+              <button>Remove</button>
+              <h2>Lorem</h2>
+              <img src="RealWatch6.webp" alt="Watch6" />
+            </article>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -39,7 +81,7 @@
 
       <div id="Watches">
         <article id="Watch1">
-          <button>Add to cart</button>
+          <button onclick=add(content1)>Add to cart</button>
           <h2>Lorem</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quam

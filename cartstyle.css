@@ -2,154 +2,298 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @media screen and (max-width: 640px) {
-  #textLogo h1 {
-    font-family: "Jacques Francois", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #57a2a7;
-    font-size: 3rem;
-    margin-left: -3vw;
+  #LinkMenu:hover,
+  #LinkMenu:focus {
+    background-color: #2980b9;
   }
 
-  #cHeader {
-    flex-direction: row;
-    background-image: linear-gradient(to right, #1c1a64, #202020);
-    padding-left: 10vw;
-    padding-right: 2rem;
-    margin-right: -1rem;
-    margin-left: -3vw;
-    margin-top: -3vw;
+  #dropdown:hover #dropContent {
+    display: block;
   }
 
-  #imgLogo img {
-    width: 13rem;
-    margin-bottom: 100vw;
-    margin-top: -28vw;
-    margin-left: 12vw;
-  }
-
-  #linkMenu {
-    border: 0px solid black;
-    background-color: #4f009e;
-    padding: 5vw;
-    width: 25vw;
-    border-radius: 2vw;
-    margin-left: 50vw;
-    margin-top: -124vw;
-  }
-
-  #linkMenu a {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: x-large;
-    color: #0099db;
-  }
-
-  #blackBar h2 {
-    font-family: "Jacques Francois", serif;
-    color: white;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 2.3rem;
-  }
-
-  #blackBar {
-    border: 0px solid black;
-    background-image: linear-gradient(to bottom, #262626, #000000);
-    padding: 1vw;
-    padding-right: 5rem;
-    padding-left: 3rem;
-    margin-left: 0rem;
-    margin-top: -0.01rem;
-  }
-
-
-  #watch2,
-  #watch3,
-  #watch4,
-  #watch5,
-  #watch6 {
+  #dropContent {
     display: none;
+    margin-left: 10.8rem;
+    background-color: #f1f1f1;
+    width: 10rem;
+    position: absolute;
+    border-radius: 2rem;
   }
 
-  #watches {
+  #content {
     display: grid;
-    grid-template-rows: 60vw;
+    grid-template-rows: 6rem 6rem 6rem 6rem 6rem;
     border: 0px solid black;
-    margin-left: 8rem;
+    margin-left: 2.5rem;
     margin-top: 1rem;
   }
 
-  #watch1Cart img {
-    width: 11rem;
-    margin-left: 3rem;
-    margin-top: -10rem;
-    margin-bottom: 4rem;
+  #drp1 img {
+    width: 4rem;
+    margin-left: -0.6rem;
+    margin-top: -0.5rem;
   }
 
-  #watch2 img {
-    width: 9rem;
-    margin-left: 4rem;
-    margin-top: -10rem;
-    margin-bottom: 4rem;
+  #drp2 img {
+    width: 3.5rem;
+    margin-left: -0.2rem;
+    margin-top: -0.4rem;
   }
 
-  #watch1Cart,
-  #watch2 {
+  #drp3 img {
+    width: 2.8rem;
+    margin-left: -0.1rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp4 img {
+    width: 4rem;
+    margin-left: -0.5rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp5 img {
+    width: 3.8rem;
+    margin-left: -0.4rem;
+    margin-top: -0.5rem;
+  }
+
+  #drp6 img {
+    width: 4.5rem;
+    margin-left: -0.8rem;
+    margin-top: -0.8rem;
+  }
+
+  #drp1,
+  #drp2,
+  #drp3,
+  #drp4,
+  #drp5,
+  #drp6 {
     font-family: "Jacques Francois", serif;
     background-image: linear-gradient(to top left, #000000, #0012b5);
-    width: 12rem;
-    height: 12rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    display: none;
   }
 
-  #watches h2 {
+  #dropContent h2 {
     font-weight: 400;
     color: white;
-    font-size: large;
+    font-size: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0rem;
-    margin-top: -1.5rem;
-  }
-  #watches p {
-    color: #8bc0fe;
-    font-size: small;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    width: 5rem;
+    margin-top: -0.5rem;
   }
 
-  #watches button {
-    background-image: linear-gradient(to top left, #000000, #0012b5);
+  #dropContent button {
+    background-image: linear-gradient(to top left, #000000, red);
     color: white;
-    margin-left: 5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  #cFooter {
-    display: grid;
-    border: 0px solid black;
-    grid-template-columns: 3.5rem 3.5rem 3.5rem 3.5rem 3.5rem;
-    align-content: space-around;
-    background-color: #010028;
-    color: white;
-    width: 23.95rem;
-    height: 5rem;
-    margin-left: -0.5rem;
-    margin-top: 1.1rem;
+    width: 2.5rem;
+    height: 1rem;
+    margin-left: 2.3rem;
+    margin-top: -1rem;
     margin-bottom: -1rem;
-  }
-
-  #cFooter p {
-    font-family: "Inter", sans-serif;
-    font-size: x-small;
-    padding-bottom: -1rem;
+    font-size: 0.4rem;
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 1007) {
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  #LinkMenu:hover,
+  #LinkMenu:focus {
+    background-color: #2980b9;
+  }
+
+  #dropdown:hover #dropContent {
+    display: block;
+  }
+
+  #dropContent {
+    display: none;
+    margin-left: 30rem;
+    background-color: #f1f1f1;
+    width: 10rem;
+    position: absolute;
+    border-radius: 2rem;
+  }
+
+  #content {
+    display: grid;
+    grid-template-rows: 6rem 6rem 6rem 6rem 6rem;
+    border: 0px solid black;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  #drp1 img {
+    width: 4rem;
+    margin-left: -0.6rem;
+    margin-top: -0.5rem;
+  }
+
+  #drp2 img {
+    width: 3.5rem;
+    margin-left: -0.2rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp3 img {
+    width: 2.8rem;
+    margin-left: -0.1rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp4 img {
+    width: 4rem;
+    margin-left: -0.5rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp5 img {
+    width: 3.8rem;
+    margin-left: -0.4rem;
+    margin-top: -0.5rem;
+  }
+
+  #drp6 img {
+    width: 4.5rem;
+    margin-left: -0.8rem;
+    margin-top: -0.8rem;
+  }
+
+  #drp1,
+  #drp2,
+  #drp3,
+  #drp4,
+  #drp5,
+  #drp6 {
+    font-family: "Jacques Francois", serif;
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    display: none;
+  }
+
+  #dropContent h2 {
+    font-weight: 400;
+    color: white;
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    margin-top: -0.5rem;
+  }
+
+  #dropContent button {
+    background-image: linear-gradient(to top left, #000000, red);
+    color: white;
+    width: 2.5rem;
+    height: 1rem;
+    margin-left: 2.3rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    font-size: 0.4rem;
+  }
 }
 
 @media screen and (min-width: 1008px) {
+  #LinkMenu:hover,
+  #LinkMenu:focus {
+    background-color: #2980b9;
+  }
+
+  #dropdown:hover #dropContent {
+    display: block;
+  }
+
+  #dropContent {
+    display: none;
+    margin-left: 56.5rem;
+    background-color: #f1f1f1;
+    width: 10rem;
+    position: absolute;
+    border-radius: 2rem;
+  }
+
+  #content {
+    display: grid;
+    grid-template-rows: 6rem 6rem 6rem 6rem 6rem;
+    border: 0px solid black;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  #drp1 img {
+    width: 4rem;
+    margin-left: -0.6rem;
+    margin-top: -0.5rem;
+  }
+
+  #drp2 img {
+    width: 3.5rem;
+    margin-left: -0.2rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp3 img {
+    width: 2.8rem;
+    margin-left: -0.1rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp4 img {
+    width: 4rem;
+    margin-left: -0.5rem;
+    margin-top: -0.4rem;
+  }
+
+  #drp5 img {
+    width: 3.8rem;
+    margin-left: -0.4rem;
+    margin-top: -0.5rem;
+  }
+
+  #drp6 img {
+    width: 4.5rem;
+    margin-left: -0.8rem;
+    margin-top: -0.8rem;
+  }
+
+  #drp1,
+  #drp2,
+  #drp3,
+  #drp4,
+  #drp5,
+  #drp6 {
+    font-family: "Jacques Francois", serif;
+    background-image: linear-gradient(to top left, #000000, #0012b5);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+    display: none;
+  }
+
+  #dropContent h2 {
+    font-weight: 400;
+    color: white;
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    margin-top: -0.5rem;
+  }
+
+  #dropContent button {
+    background-image: linear-gradient(to top left, #000000, red);
+    color: white;
+    width: 2.5rem;
+    height: 1rem;
+    margin-left: 2.3rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    font-size: 0.4rem;
+  }
 }
