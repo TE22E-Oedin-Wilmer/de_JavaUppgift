@@ -98,6 +98,27 @@
     margin-bottom: -1rem;
     font-size: 0.4rem;
   }
+
+  #totalCash h2 {
+    font-size: 1rem;
+    color: black;
+    margin-left: 0rem;
+    margin-bottom: -0.3rem;
+  }
+
+  #totalCash {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #cost {
+    padding-top: 0.2rem;
+  }
+
+  #drp2 #Amount2 {
+    margin-top: -0.7rem;
+  }
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -197,6 +218,34 @@
     margin-bottom: -1rem;
     font-size: 0.4rem;
   }
+
+  #totalCash h2 {
+    font-size: 1rem;
+    color: black;
+    margin-left: 0rem;
+    margin-bottom: -0.3rem;
+  }
+
+  #totalCash {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #cost {
+    padding-top: 0.2rem;
+  }
+
+  #drp2 #Amount2 {
+    margin-top: -0.7rem;
+  }
+
+  #drp3 #Amount3 {
+    margin-top: -0.7rem;
+  }
+
+  #drp4 #Amount4 {
+    margin-top: -1.2rem;
+  }
 }
 
 @media screen and (min-width: 1008px) {
@@ -240,7 +289,7 @@
 
   #drp3 img {
     width: 2.8rem;
-    margin-left: -0.1rem;
+    margin-left: 0.2rem;
     margin-top: -0.4rem;
   }
 
@@ -277,7 +326,7 @@
     display: none;
   }
 
-  #dropContent h2 {
+  #content h2 {
     font-weight: 400;
     color: white;
     font-size: 0.5rem;
@@ -295,5 +344,35 @@
     margin-top: -1rem;
     margin-bottom: -1rem;
     font-size: 0.4rem;
+  }
+
+  #totalCash h2 {
+    font-size: 1rem;
+    margin-bottom: -0.3rem;
+  }
+
+  #totalCash {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #cost {
+    margin-top: -0.1rem;
+  }
+
+  #drp3 #Amount3 {
+    margin-top: -0.7rem;
+  }
+
+  #drp4 #Amount4 {
+    margin-top: -1rem;
+  }
+
+  #drp5 #Amount5 {
+    margin-top: -1rem;
+  }
+
+  #drp6 #Amount6 {
+    margin-top: -1.3rem;
   }
 }
